@@ -76,7 +76,7 @@ if __name__ == "__main__":
     threading.Thread(target=open_file_if_youtube_active, daemon=True).start()
     run_tray_icon()
 ````
-и добавьте расположение файла 1_russia_blacklist.cmd во второй решётке (#)
+и добавьте ваше расположение файла 1_russia_blacklist.cmd во второй решётке (#)
 
 6. Сохраняйте и переименовывайте файл в my_script.py
 Также советую воспользоваться пунктом 8
